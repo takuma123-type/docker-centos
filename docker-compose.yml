@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  centos-gui:
+    build: .
+    ports:
+      - "5901:5901"
+    environment:
+      - USER=root
